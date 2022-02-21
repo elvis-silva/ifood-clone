@@ -4,7 +4,7 @@ export const RestaurantView = styled.View`
 
   flex-direction: row;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 25;
   border: 1px solid #c4c4c4;
   background-color: #fff;
   min-width: 90%;
@@ -20,6 +20,7 @@ export const RestaurantInfo = styled.View`
   justify-content: center;
   margin-left: 20px;
   margin-top: 10px;
+  border-radius: 25;
 
 `
 

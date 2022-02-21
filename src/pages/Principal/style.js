@@ -43,6 +43,7 @@ export const ViewPrincipal = styled.ScrollView`
 export const ButtonContainer = styled.View`
         
   flex-direction:row;
+  border-radius: 25;
   justify-content: space-between;
   align-items:center;
   width:100%;
@@ -87,6 +88,7 @@ export const BannerView = styled.ScrollView`
 
   margin-top: 20px;
   height: 180px;
+  border-radius: 25;
   flex-direction: row;
   width: ${(Dimensions.get('window').width) - 10}px;
 
@@ -96,6 +98,7 @@ export const ViewRestaurants = styled.View`
 
   justify-content: center;
   margin: 10px 20px 30px 20px ;
+  border-radius: 25;
   width: ${(Dimensions.get('window').width) - 50}px;
         
 `

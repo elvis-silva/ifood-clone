@@ -20,7 +20,7 @@ export default function Main() {
         return <Feather name={iconName} size={size} color={color}/>
       }
     })}
-      tabBarOptions={{
+    tabBarOptions={{
         activeTintColor: 'tomato',
         inactiveTintColor: 'gray'
       }}

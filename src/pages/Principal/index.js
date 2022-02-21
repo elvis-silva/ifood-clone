@@ -29,7 +29,7 @@ export default function Principal() {
 
         setLoaded(true);
         setBanners(data.banner_principal);
-        setCategories(data.categotias);
+        setCategories(data.categorias);
         setRestaurants(data.restaurantes);
 
       } catch (err) {

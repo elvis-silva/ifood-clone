@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components/native';
 export const TouchableOpacity = styled.TouchableOpacity`
 
   border: 1px solid #F0001A;
-  border-radius: 5px;
+  border-radius: 25px;
   padding: 10px 40px;
   max-width: 190px;
   display: flex;

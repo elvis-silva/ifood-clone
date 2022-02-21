@@ -23,7 +23,7 @@ export const View = styled.View`
 
 `
 
-export const ButtonContainer = styled.ButtonContainer`
+export const ButtonContainer = styled.View`
 
   flex-direction: row;
   justify-content: space-between;
