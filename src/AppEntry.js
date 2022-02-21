@@ -1,5 +1,17 @@
-import registerRootComponent from 'expo/build/launch/registerRootComponent';
+import { AppRegistry, Platform } from "react-native";
 
-import App from './App';
+import Routes from "./routes";
 
-registerRootComponent(App);
+AppRegistry.registerComponent('main', () => Routes);
+
+if(Platform.OS === 'web') {
+  const rootTag = document.getElementById('root') || document.getElementById('main');
+  AppRegistry.runApplication('main', { rootTag });
+}
+
+
+// import registerRootComponent from 'expo/build/launch/registerRootComponent';
+
+// import Routes from './routes';
+
+// registerRootComponent(Routes);
